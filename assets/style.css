@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Raleway:ital,wght@1,100&display=swap');
+
+body {
+    background: #f1f58c;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock {
+    position: relative;
+    color: #918d59;
+    font-size: 2rem;
+    font-family: serif;
+    letter-spacing: 7px;
+}
+
+p{
+    position: relative;
+    justify-items: center;
+    font-size: 3rem;
+    color: #ba9a0b;
+}
+
+footer {
+    width: 100%;
+    background-color: #e1e487;
+    padding: 1rem;
+    color: #787a2e;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    font-weight: 400;
+}
